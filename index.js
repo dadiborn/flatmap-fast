@@ -10,7 +10,7 @@ const flatten = (arr /*:Array<any>*/) => {
                     result.push(arr[outerIndex][innerIndex]);
                 }
             } else {
-                result.push(arr);
+                result.push(arr[outerIndex]);
             }
         }
     } else {
